@@ -138,7 +138,7 @@ void loop() {
           count_button1=0;
           leds[bt1Led] = CRGB::Black;
           bt1Led++;
-          if (bt1Led >= NUM_LEDS) {                     
+          if (bt1Led >= NUM_LEDS && winner==0) {                     
              winner=1;        
              bt1Led= 0;     
           }   
@@ -149,7 +149,7 @@ void loop() {
           count_button2=0;
           leds[bt2Led] = CRGB::Black;
           bt2Led--;
-          if (bt2Led < 0) {                     
+          if (bt2Led < 0 && winner == 0) {                     
              winner=2;     
              bt2Led= NUM_LEDS-1;        
           }   
