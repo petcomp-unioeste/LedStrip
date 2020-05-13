@@ -1,3 +1,3 @@
 # LedStrip
 LedStrip racing project
-![Esquemático base](ledstrip_Esquemático.png)
+![Esquemático base](ledstrip_Esquematico.png)
